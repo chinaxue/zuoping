@@ -1,0 +1,168 @@
+body{
+	width: 100%;
+	overflow-x:hidden;
+}
+.wai{
+	height: auto;
+}
+.xue{
+	width: 100%;
+	height: auto;
+	overflow-x:hidden;
+}
+/*cehua*/
+	.cehua-box{
+		width: 4.82rem;
+		float: left;
+		position: relative;
+		background: #161515;
+		z-index: 999999999;
+		margin-left: 0;
+		-webkit-transition:margin-left .5s linear;
+		transition:margin-left .5s linear;
+	}
+	.cehua-box.active{
+		margin-left: -4.82rem;
+	}
+	.cehuas{
+		width: 100%;
+		position: fixed;
+		top:0;
+		left: 0;
+		z-index: 99999999;
+		display: none;
+	}
+	.cehua-box .header{
+		width: 100%;
+		height: 0.87rem;
+		background: #252424;
+		color: #A8D655;
+		text-align: center;
+		font-size: 13px;
+		padding-top: 0.14rem;
+		line-height: 0.35rem;
+	}
+	.cehua-box .header p{
+		width: 100%;
+		height: auto;
+		color: #A8D655;
+		font-size: 13px;
+	}
+	.cehua-box .header span{
+		color: #A8D655;
+		font-size: 13px;
+	}
+	.cehua-box .header span:last-child{
+		margin-left: 5px;
+	}
+	.cehua-box .zhong{
+		width: 100%;
+		height:1.4rem;
+		line-height: 1.4rem;
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+		display: flex;
+		box-pack:center;
+		justify-content:center;
+		box-align:center;
+		align-items:center;
+	}
+	.cehua-box .zhong img{
+		height: 1.09rem;
+		float: left;
+		box-flex:0;
+		flex-grow:0;
+		flex-shrink:0;
+		/*margin-top: 0.15rem;*/
+		margin-right: 0.05rem;
+	}
+	.cehua-box .zhong .zi{
+		width: auto;
+		height: 100%;
+		line-height: 1.4rem;
+		color: #fff;
+		font-size: 16px;
+		float: left;
+	}
+	.cehua-box .zhong .zi span{
+		color: #fff;
+	}
+	.cehua-box .bottom{
+		width: 100%;
+		height: auto;
+		padding: 0 0.15rem;
+	}
+	.cehua-box .bottom li{
+		width: 100%;
+		height: 0.75rem;
+		line-height: 0.75rem;
+		overflow: hidden;
+		padding: 0 0.2rem;
+	}
+	.cehua-box .bottom li span{
+		font-size: 14px;
+		color: #fff;
+	}
+	.cehua-box .bottom li .btn{
+		display: block;
+		float: right;
+		margin-right: 5px;
+		width: auto;
+		height: auto;
+		margin-top: 4px;
+	}
+	.cehua-box .bottom li .btn img{
+		width: 0.5rem;
+	}
+	.cehua-box .bottom li.active{
+		background-image: url(../img/beijing.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+/*zhuti*/
+	/*.hj-footer{
+		-webkit-transition:transform .5s linear;
+		transition:transform .5s linear;
+	}
+	.hj-footer.active{
+		-webkit-transform:translate3d(4.82rem,0,0);
+		transform:translate3d(4.82rem,0,0);
+	}*/
+	.zhuti-box{
+		width: 100%;
+		height: auto;
+		position: relative;
+		float: left;
+	}
+	.zhuti-box .head{
+		width: 100%;
+		height: 1.35rem;
+		background: #252424;
+		padding: 0.1rem 0.15rem;
+	}
+	.zhuti-box .head .btn{
+		width: 2.03rem;
+		height: 100%;
+		font-size: 13px;
+		color: #fff;
+		line-height: 0.7rem;
+	}
+	.zhuti-box .head .btn img{
+		width: 0.64rem;
+		display: block;
+		float: left;
+		margin-right: 0.25rem;
+	}
+	.zhuti-box .head .btn span{
+		color: #fff;
+	}
+
+
+
+
+
+
+
+

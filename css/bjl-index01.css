@@ -1,0 +1,131 @@
+/*----------------------------------------*/
+/*横幅广告*/
+	.bjl-advert{
+		width: 7.2rem;
+		height: 1.85rem;
+		margin: .1rem auto;
+	}
+	.bjl-advert a img{
+		width: 100%;
+	}
+/*----------------------------------------*/
+/*内容列表*/
+	.bjl-content{
+		width: 7.16rem;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 1.58rem;
+	}
+	.bjl-content ul{
+		width: 100%;
+		height: auto;
+	}
+	.bjl-content ul li{
+		width: 100%;
+		height: 1.85rem;
+		margin-bottom: .06rem;
+		background: #fff;
+		border-radius: .1rem;
+		position: relative;
+	}
+	.bjl-content ul li .list-left{
+		width: 2rem;
+		height: 1.71rem;
+		padding: 0.04rem;
+		float: left;
+	}
+	.bjl-content ul li .list-left img{
+		width: 2rem;
+		height: 1.71rem;
+	}
+	.bjl-content ul li .list-right{
+		width: 4.7rem;
+		height:100%;
+		float: left;
+		margin-left:.3rem; 
+	}
+	/*标题*/
+	.bjl-content ul li .list-right .title{
+		width: 3.8rem;
+		height:.54rem;
+		color: #191919;
+		font-size: 12px;
+		margin-top: .25rem;
+		font-family: '苹方';
+		font-weight: 600;
+		line-height: 14px;
+	}
+	/*关键字*/
+	.bjl-content ul li .list-right .company{
+		width: 4.7rem;
+		height:.58rem;
+		color: #656468;
+		font-size: 10px;
+		font-family: '苹方';
+		line-height: .6rem;
+		border-bottom: 1px dashed #B3A991;
+	}
+	/*icon图标*/
+	.bjl-content ul li .list-right .icon-box{
+		width: 4.8rem;
+		height:.4rem;
+		line-height: .4rem;
+	}
+	.bjl-content .icon-box .icon-left{
+		float: left;
+	}
+	.bjl-content .icon-box .icon-right{
+		float: right;
+		margin-right: .3rem;
+	}
+	.bjl-content .icon-box span{
+		display: inline-block;
+		width: .23rem;
+		height: .23rem;
+		margin-top: .05rem;
+		margin-right: .1rem;
+		margin-left: .1rem;
+	}
+	.bjl-content .icon-box span img{
+		width:.23rem;
+		height: .23rem;
+	}
+	.bjl-content .icon-box i{
+		display: inline-block;
+		font-style: normal;
+		font-size: 8px;
+		color: #656468;
+		line-height: .34rem;
+		font-family: '苹方';
+		margin-bottom:.05rem; 
+	}
+	.bjl-content .icon-box .icon-right .right{
+		float: right;
+	}
+	.bjl-content .icon-box .icon-right .left{
+		float: right;
+	}
+	/*热点与收藏*/
+	.bjl-content ul li .hot{
+		position:absolute;
+		right: -0.05rem;
+		top: -0.05rem;
+		width: .43rem;
+		height: .43rem;
+	}
+	.bjl-content ul li .collection{
+		position:absolute;
+		right: .3rem;
+		top: .5rem;
+		width: .36rem;
+		height: .31rem;
+	}
+	.bjl-content ul li .hot img{
+		width: .43rem;
+		height: .43rem;
+	}
+	.bjl-content ul li .collection img{
+		width: .36rem;
+		height: .31rem;
+	}
+/*----------------------------------------

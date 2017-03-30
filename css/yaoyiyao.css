@@ -1,0 +1,85 @@
+/*yao-box*/
+	.yao-box{
+		width: 100%;
+		height: 0.88rem;
+		background: #252424;
+		position: fixed;
+		top:0;
+		left: 0;
+		display: flex;
+		align-items:center;
+		justify-content:space-between;
+		padding: 0 0.16rem;
+		z-index: 99999;
+	}
+	.yao-box a{
+		width: auto;
+		height: 0.7rem;
+		flex-grow:0;
+		flex-shrink:0;
+	}
+	.yao-box a img{
+		height: 100%;
+	}
+	.yao-box a img.last{
+		display: none;
+	}
+	.yao-box .zi{
+		width: 1.8rem;
+		height: 100%;
+		padding-top: 0.1rem;
+	}
+	.yao-box .zi p{
+		text-align: center;
+		font-size: 18px;
+		color: #A8D655;
+		line-height: 0.37rem;
+	}
+	.yao-box .zi p span{
+		color: #A8D655;
+	}
+
+
+
+/*yao-img*/
+	.yao-img{
+		width: 100%;
+		overflow: hidden;
+		font-size: 0;
+		position: relative;
+		/*margin-top: -0.6rem;*/
+	}
+	.yao-img img{
+		width: 100%;
+	}
+
+/*yao-zhe*/
+	.yao-zhe{
+		width: 100%;
+		overflow: hidden;
+		font-size: 0;
+		position: fixed;
+		top:0;
+		left: 0;
+		z-index: 99999999;
+	}
+	.yao-zhe img{
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

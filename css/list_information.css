@@ -1,0 +1,277 @@
+/*----------------------------------------*/
+/*基本*/
+	body{
+		font-family: '苹方';
+		font-size: 16px;
+		background: #F4EAD5;
+	}
+	h1,h2,h3,h4,h5,h6{
+		margin: 0;
+		padding: 0;
+	}
+	i{
+		font-style:normal;
+	}
+/*----------------------------------------*/
+/*页头*/
+	.head-box{
+		width: 100%;
+		height: 1.76rem;
+		background: #252424;
+		box-shadow: 0 0 10px #000;
+		position: relative;
+	}
+	.head-box .menu{
+		width: 100%;
+		height: 0.88rem;
+	}
+	.head-box .menu .menu-back{
+		width: .72rem;
+		height: .72rem;
+		float: left;
+		margin: 0.08rem 0 0.08rem 0.18rem;
+	}
+	.head-box .menu .menu-back img{
+		width: .72rem;
+		height: .72rem;
+	}
+	.head-box .menu .menu-title{
+		float: left;
+		color: #A8D655;
+		font-size: 15px;
+		padding-top: .14rem;
+		margin-left: 1.68rem;
+	}
+	.head-box .menu .menu-title div{
+		color: #A8D655;
+		font-size: 15px;
+		font-family: '苹方';
+		text-align: center;
+		line-height: .3rem;
+	}
+	.head-box .select{
+		width: 100%;
+		height: 0.88rem;
+	}
+	.head-box .select ul{
+		width: 6.8rem;
+		height: 0.88rem;
+		display: flex;
+		margin: 0 auto;
+	}
+	.head-box .select ul li{
+		width: 2rem;
+		height: .7rem;
+		flex:0 1 33.33%;
+	}
+	.head-box .select ul li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.head-box .select ul li span{
+		margin-top: .05rem;
+		font-size: 14px;
+		color: #fff;
+	}
+	.head-box .select ul li img{
+		margin-top: .05rem;
+		width: .37rem;
+		height: .38rem;
+		margin-left: .2rem;
+	}
+	.head-box .select ul .active{
+		background: url(../img/bjl_option.png) no-repeat center center/cover;
+	}
+	.head-box .select ul .active span{
+		/*color: #10340A;*/
+	}
+	.head-box .select li{
+		width: 2rem;
+		height: 0.7rem;
+	}
+/*----------------------------------------*/
+/*导航*/
+	.nav-box{
+		width: 100%;
+		height: auto;
+		background: url(../img/bjl_navbg.png);
+		padding-bottom:.3rem; 
+		padding-top:.3rem; 
+	}
+	.view{
+		width: 7.2rem;
+		height: auto;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.container-box{
+		width: 21.6rem;
+		height: auto;
+		-webkit-transition:all 0.5s;
+	}
+	.container{
+		width: 7.2rem;
+		float: left;
+		display: flex;
+		flex-wrap:wrap;
+	}
+	.container a{
+		width: 1.3rem;
+		height: 2rem;
+		flex:0 1 25%;
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.container a img{
+		width: 1.3rem;
+		height: 1.3rem;
+	}
+	.container a span{
+		color: #CDC4B3;
+		font-size: 12px;
+		margin-top: .07rem;
+	}
+/*----------------------------------------*/
+/*横幅广告*/
+	.advert{
+		width: 7.2rem;
+		height: 1.38rem;
+		margin: .1rem auto;
+	}
+	.advert a img{
+		width: 100%;
+	}
+/*----------------------------------------*/
+/*内容列表*/
+	.content-box{
+		width: 7.2rem;
+		height: auto;
+		/*overflow: hidden;*/
+		margin: 0 auto;
+	}
+	.content-box ul{
+		width: 100%;
+		height: auto;
+	}
+	.content-box ul li{
+		width: 100%;
+		height: 1.3rem;
+		margin-bottom:2px; 
+		background: #fff;
+	}
+	.content-box ul li .left{
+		width: 1.3rem;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
+	.content-box ul li .left .news{
+		width: 0.43rem;
+		height: 0.43rem;
+		position: absolute;
+		left: -0.06rem;
+		top: -0.06rem;
+	}
+	.content-box ul li .left .news img{
+		width: 0.43rem;
+		height: 0.43rem;
+	}
+	.content-box ul li .left img{
+		width: 1.3rem;
+		height: 1.3rem;
+	}
+	.content-box ul li .right{
+		width: 5.9rem;
+		height: 1.3rem;
+		float: right;
+	}
+	.content-box ul li .right .title{
+		width: 5.6rem;
+		height: .3rem;
+		margin-top: 0.15rem;
+		margin-left: 0.15rem;
+		font-size: 13px;
+		color: #191919;
+		font-family: '苹方';
+		line-height: .3rem;
+	}
+	.content-box ul li .right .company{
+		width: 5.87rem;
+		height: .46rem;
+		padding-left: 0.15rem;
+		padding-bottom: 0.15rem;
+		font-size: 14px;
+		color: #191919;
+		font-family: '苹方';
+		line-height: .36rem;
+		border-bottom: 1px dashed #B8AE99;
+		border-color:#BFB7A3; 
+		/*background-position-bottom: url(../img/bjl_border.png) no-repeat;*/
+		color: #A2A09E;
+		overflow: hidden;
+		box-sizing:border-box;
+
+	}
+	.content-box ul li .right .company p{
+		width: 3.5rem;
+		color: #A2A09E;
+		font-size: 10px;
+		float: left;
+		overflow: hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+	/*价格*/
+	.content-box ul li .right .price{
+		color: #A2A09E;
+		font-size: 10px;
+		float: right;
+		margin-right: 0.15rem;
+		margin-top: 0.03rem;
+	}
+	.content-box ul li .right .price i{
+		color: #FF163C;
+		font-size: 22px;
+		font-family: Helvetica;
+	}
+	.content-box ul li .right .icon-box{
+		height: .4rem;
+		width: 100%;
+	}
+	.content-box ul li .right .icon-box .icon{
+		width: 3rem;
+		float: left;
+		line-height: .4rem;
+	}
+	.content-box ul li .right .icon-box .icon span{
+		display: inline-block;
+		width: .24rem;
+		height: .24rem;
+		margin: 0.04rem 0.05rem 0.02rem .2rem;
+	}
+	.content-box ul li .right .icon-box .icon i{
+		font-size: 10px;
+		line-height: .3rem;
+		color: #B2B2B2;
+		margin-bottom: 0.02rem;
+	}
+	.content-box ul li .right .icon-box .icon span img{
+		width: 100%;
+	}
+	.content-box ul li .right .icon-box .enter{
+		width: .24rem;
+		height: .24rem;
+		display: block;
+		float: right;
+		margin: 0.03rem 0.15rem;
+	}
+	.content-box ul li .right .icon-box .enter img{
+		width: 100%;
+	}
+/*----------------------------------------*/

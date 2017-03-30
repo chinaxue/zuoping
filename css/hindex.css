@@ -1,0 +1,254 @@
+@import "moRen.css";
+body{
+    background: #F4EAD5;
+}
+.h-banner{
+    width: 100%;
+    height: 3.5rem;
+   border-top:1px solid #151515;
+    position: relative;
+    background: url("../img/block.png")no-repeat center center/cover;
+}
+.h-back{
+    display: block;
+    width:0.7rem;
+    height:0.7rem;
+    /*background: url("../img/more.png")no-repeat -288px -14px;*/
+    /*background-size:340px;*/
+    margin-top:0.1rem;
+    margin-left:0.15rem;
+
+}
+.h-tox{
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top:70%;
+    box-sizing: border-box;
+    border:4px solid #fff;
+    margin-left:0.15rem;
+
+}
+.h-banner h2{
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    bottom:-8px;
+    left:2.3rem;
+}
+.h-word{
+     margin-left:2.3rem;
+     height:0.6rem;
+    display: flex;
+    align-items: center;
+ }
+.h-word2{
+    margin-left:2.3rem;
+    height:0.5rem;
+    display: flex;
+    align-items: center;
+}
+.h-bg {
+    display: flex;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin:0.05rem 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+
+    /*background: url("../img/more.png")no-repeat -2px -57px;*/
+    /*background-size:340px;*/
+    color: #323030;
+    float: left;
+}
+.h-bg img{
+    line-height: 25px;
+}
+
+
+.h-word span{
+    float: left;
+    line-height:25px;
+    font-size: 12px;
+
+}
+.h-word2 span{
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.h-fenl{
+    width: 100%;
+    height: auto;
+    float: none;
+    box-sizing: border-box;
+    padding:0 0.15rem;
+    margin-top:0.3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+}
+.h-fenl .h-dan{
+    width: 3.5rem;
+    height: 2.4rem;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.h-fenl  .h-dan .h-title{
+    width: 100%;
+    height:0.8rem;
+    background: #252424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-grow: 0;
+
+
+
+}
+.h-fenl  .h-dan .h-title .h-yuan{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: -6px;
+    letter-spacing:2px;
+
+}
+.h-fenl  .h-dan .h-title h3{
+     width:2rem;
+    float: left;
+    margin:0;
+    margin-left:0.15rem;
+    color: #A8D655;
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+.h-fenl  .h-dan .h-title h3 span{
+    color: #A8D655;
+    font-size: 12px;
+}
+
+.h-fenl  .h-dan .h-title .h-log{
+    display: flex;
+    float: right;
+    width:0.76rem;
+    height:0.76rem;
+    margin:0.1rem 0;
+    margin-right:0.1rem;
+    align-items: center;
+
+
+}
+
+.h-fenl  .h-dan  .h-con{
+    width: 100%;
+    padding:0.01rem 0.15rem;
+    height:0.8rem;
+    position: relative;
+    flex-grow:0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+
+    justify-content:center;
+}
+.h-bao{
+    display: flex;
+    flex-direction: column;
+}
+.h-fenl  .h-dan  .h-con p{
+    font-size:10px;
+    color: #7F7E7E;
+}
+.h-fenl  .h-dan  .h-con .h-yuan{
+    font-size: 20px;
+    color: #E3E3E3;
+    position: absolute;
+    bottom:-6px;
+    letter-spacing:2px;
+    left:-0.03rem;
+}
+.h-tia{
+    width: 100%;
+    height: 0.8rem;
+    border-left:5px solid #fff;
+    border-bottom:5px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-grow:1;
+    box-sizing: border-box;
+    /*background: #0D6CD3;*/
+}
+.h-tia h4{
+    margin:0;
+    font-size:0.54rem;
+    color: #E41839;
+    font-weight: 500;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+.h-tia h4 span{
+    font-size:10px;
+    color: #CECECE;
+}
+.h-tia .h-xuaz{
+    width:1rem;
+    height: 1rem;
+    margin-top:5px;
+    background: #E41839;
+    transform-origin:left top;
+    -webkit-transform-origin:left top;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);/* Safari 和 Chrome */
+
+
+}
+.h-jia{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius:50%;
+    background: #E41839;
+    position: absolute;
+    top:0px;
+    right:2px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.h-photo{
+    width: 100%;
+    height: 1.5rem;
+
+}
+.h-more{
+    display: block;
+    width:3rem;
+    height:2rem;
+    position:absolute;
+    top:24px;
+    left:20px;
+
+    z-index: 999;
+}

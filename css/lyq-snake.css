@@ -1,0 +1,252 @@
+body{
+	background: #F4EAD5;
+	width:100%;
+	padding:0 0.15rem;
+}
+/*snake*/
+	.snake_nav{
+		width:100%;
+		height:0.88rem;
+		background: #252424;
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		box-sizing:border-box;
+		padding-left:0.15rem;
+		position: fixed;
+		top:0;
+		left:0;
+	}
+	.snake_nav a{
+		width:0.7rem;
+		height: 0.7rem;
+		display: flex;
+		align-items:center;
+	}
+	.snake_nav a>img{
+		width:0.7rem;
+	}
+	.snake_nav span:nth-child(2){
+		color:#A8D655;
+		text-align: center;
+		font-size: 18px;
+		display: flex;
+		/*align-items:center;*/
+		line-height: 0.38rem;
+		flex-direction:column;
+	}
+	.snake_nav span:nth-child(2) i{
+		color:#A8D655;
+		font-style:normal;
+		font-size: 14px;
+	}
+	.snake_nav span:nth-child(3){
+		width:0.7rem;
+		padding-right:0.15rem;
+	}
+	.snake_nav .pic{
+		background: url(../img/lyq-20170307161013.png) no-repeat 0.12rem -1.3rem/100% auto;
+		width:100%;
+		height:1.5rem;
+		position: absolute;
+		left:0;
+		top:0.68rem;
+		z-index:99999;
+	}
+	.snake_nav .shadow{
+		background: url(../img/lyq-shad.png) no-repeat center center/100% auto;
+		width:120%;
+		height:0.13rem;
+		position: absolute;
+		bottom:-0.1rem;
+		left:-0.15rem;
+	}
+/*data_pic*/
+	.data_pic{
+		width:100%;
+		margin-top:0.88rem;
+		background: #F4EAD5;
+		
+	}
+	.data_pic .data_pic_cir{
+		width:100%;
+		height:auto;
+		margin-top: 2.1rem;
+	}
+	.data_pic .data_pic_cir img{
+		display: block;
+		margin:-0.2rem auto;
+		width:100%;
+	}
+	.data_pic .data-part-number{
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius:15px;
+		overflow: hidden;
+	}
+	.data_pic .data-part-number h3{
+		font-size: 10px;
+		color:#865E4C;
+		margin: 0;
+	}
+	.data_pic .data-part-number img{
+		width:100%;
+		display: block;
+	}
+
+/*surprise*/
+	.surprise .surprise_pic{
+		height:1.8rem;
+		background: url(../img/lyq-shou2.png)  no-repeat center -3.2rem/110% auto;
+		position: relative;
+		margin-bottom: 0.1rem;
+		z-index:-1;
+	}
+	.surprise .surprise_pic div:nth-child(1){
+		width:0.90rem;
+		height:1.1rem;
+		background: url(../img/lyq-o.png) no-repeat center center/100% auto;
+		position: absolute;
+		top:0.57rem;
+		left:3.1rem;
+	}
+	.surprise .surprise_pic div:nth-child(2){
+		width:3rem;
+		height:1.65rem;
+		background: url(../img/lyq-come.png) no-repeat center center/100% auto;
+		position: absolute;
+		right:0.1rem;
+		top:0.1rem;
+	}
+	.surprise .content_job{
+		height:1.3rem;
+		display: flex;
+		background: #fff;
+		border-radius: 5px;
+		margin-bottom: 0.04rem;
+		position: relative;
+	}
+	.surprise .content_job>a{
+		display: block;
+		position: absolute;
+		width:100%;
+		height:100%;
+		background: transparent;
+	}
+
+	.surprise .content_job .left{
+		width:1.3rem;
+		flex:none;
+		height:1.3rem;
+		overflow: hidden;
+	}
+	.surprise .content_job .left img{
+		width:100%;
+		display: block;
+	}
+	.surprise .content_job .right{
+		flex:auto;
+		/*display: flex;*/
+		/*flex-direction:column;*/
+		padding: 0 0.2rem;
+
+	}
+	.surprise .content_job .right h1{
+		font-size: 12px;
+		color:#191919;
+		margin:0.08rem 0 ;
+	}
+	.surprise .content_job .right h1>a{
+		font-size: 12px;
+		color:#191919;
+	}
+
+	.surprise .content_job .right>span{
+		display: flex;
+		justify-content:space-between;
+		border-bottom:1px dotted #C7C0AE;
+		/*padding-bottom: 0.02rem;*/
+	}
+	.surprise .content_job .right>span i{
+		font-size: 10px;
+		color:#B2B1AF;
+		font-style: normal;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;	
+		white-space:nowrap;
+		width:4rem;
+	}
+	.surprise .content_job .right>span i>a{
+		font-size: 10px;
+		color:#B2B1AF;
+	}
+
+
+	.surprise .content_job .right>span>span{
+		font-size: 25px;
+		color:#FF163C;
+		line-height:0.22rem; 
+	}
+	.surprise .content_job .right>div{
+		display: flex;
+		justify-content:space-between;
+		margin-top: 0.05rem;
+		align-items:center;
+	}
+	@media screen and (max-width: 330px){
+		.surprise .content_job .right>div{
+			margin-top:0.02rem;
+		}
+		.surprise .content_job .right h1{
+			margin:0.04rem 0 ;
+		}
+
+	}
+	.surprise .content_job .right>div .des-left>{
+		display: flex;
+		justify-content:space-between;
+	}
+	.surprise .content_job .right>div .des-left>span:nth-child(1){
+		width:0.75rem;
+		height: 0.3rem;
+		background: url(../img/lyq-info.png) no-repeat 0 center/contain;
+		-webkit-background-size:contain;
+
+		padding-left: 0.5rem;
+	}
+	.surprise .content_job .right>div .des-left>span:nth-child(2){
+		width:0.75rem;
+		height: 0.3rem;
+		background: url(../img/lyq-five.png) no-repeat 0 center/contain;
+		-webkit-background-size:contain;
+		padding-left: 0.5rem;
+	}
+	.surprise .content_job .right>div .des-right{
+		margin-right: 0.05rem;
+		width:0.26rem;
+		height:0.26rem;
+		background: url(../img/lyq-circle.png) no-repeat center center/contain;
+		-webkit-background-size:contain;
+		position: relative;
+	}
+	.surprise .content_job .right>div .des-right>a{
+		display: block;
+		width:100%;
+		height:100%;
+		position: absolute;
+		left:0;
+		top:0;
+	}
+
+
+
+
+
+
+
+
+
+
+	
+
+
